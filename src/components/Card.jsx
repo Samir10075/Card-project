@@ -5,11 +5,11 @@ const Card = (props) => {
         <div className="card">
             <div>
                 <div className="top">
-                    <img src={props.brandLogo} alt="Img" />
+                    <img src={props.logo} alt="Img" />
                     <button>Save <Bookmark size={10} /> </button>
                 </div>
                 <div className="center">
-                    <h3>{props.company} <span>{props.datePosted}</span></h3>
+                    <h3> {props.company} <span></span></h3>
                     <h2>{props.post}</h2>
                     <div className='tag'>
                         <h4>{props.tag1}</h4>
@@ -20,7 +20,7 @@ const Card = (props) => {
             <div className="bottom">
                 <div>
                     <h3>{props.pay}</h3>
-                    <p>Mumbai, India</p>
+                    <p>{props.location}</p>
                 </div>
                 <button>Apply Now</button>
             </div>

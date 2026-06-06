@@ -63,7 +63,7 @@ body{
 
 .center h3{
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .center h3 span{
@@ -116,5 +116,5 @@ body{
 
 .bottom p{
     font-size: 10px;
-    color: #8b8b8b;
+    color: gold;
 }
